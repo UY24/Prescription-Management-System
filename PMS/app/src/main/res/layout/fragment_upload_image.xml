@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadImageFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <include layout="@layout/actionbar">
+
+    </include>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="357dp"
+            android:layout_height="449dp"
+            android:contentDescription="@null"
+            android:background="@drawable/curved_filled_blue"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="247dp"
+            android:layout_height="66dp"
+            android:layout_margin="20dp"
+            android:backgroundTint="#404CCF"
+            android:fontFamily="@font/roboto"
+            android:text="@string/button_text"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>
